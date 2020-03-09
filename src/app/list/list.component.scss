@@ -1,0 +1,59 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+
+$primary: whitesmoke;
+
+h1,
+ul,
+li,
+p,
+p.name,
+p.country {
+  font-family: "Fira Code", monospace;
+}
+
+//text-align: center;
+
+h1 {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Fira Code", monospace;
+
+  li {
+    background: whitesmoke;
+    padding: 3em;
+    border-radius: 25px;
+    font-display: flex;
+    font-weight: normal;
+    margin-right: 10px;
+    width: 20%;
+    height: 200px;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+      background: darken($primary, 10%);
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p.name {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    p.country {
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      flex-grow: 3;
+    }
+  }
+}
