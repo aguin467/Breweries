@@ -16,10 +16,10 @@
 [prettier]: https://img.shields.io/badge/prettier-1.19.1-hotpink
 [prettier-url]: https://prettier.io/
 
-[nodejs]: https://img.shields.io/badge/nodejs-13.10.1-brightgreen
+[nodejs]: https://img.shields.io/badge/nodejs-13.11.0-brightgreen
 [nodejs-url]: https://nodejs.org/en/
 
-[Angular]: https://img.shields.io/badge/angular-9.0.5-red
+[Angular]: https://img.shields.io/badge/angular-9.0.6-red
 [Angular-url]: https://angular.io/
 
 ## Development server
