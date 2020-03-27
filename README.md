@@ -7,19 +7,19 @@
 
 [![npm][npm]][npm-url] [![eslint][eslint]][eslint-url] [![prettier][prettier]][prettier-url] [![nodejs][nodejs]][nodejs-url] [![Angular Version][Angular]][Angular-url]
   
-[npm]: https://img.shields.io/badge/npm-6.14.2-brightgreen
+[npm]: https://img.shields.io/badge/npm-6.14.4-brightgreen
 [npm-url]: https://npmjs.com/
 
 [eslint]: https://img.shields.io/badge/eslint-6.8.0-brightgreen
 [eslint-url]: https://eslint.org/
 
-[prettier]: https://img.shields.io/badge/prettier-1.19.1-hotpink
+[prettier]: https://img.shields.io/badge/prettier-2.0.2-hotpink
 [prettier-url]: https://prettier.io/
 
 [nodejs]: https://img.shields.io/badge/nodejs-13.11.0-brightgreen
 [nodejs-url]: https://nodejs.org/en/
 
-[Angular]: https://img.shields.io/badge/angular-9.0.6-red
+[Angular]: https://img.shields.io/badge/angular-9.0.7-red
 [Angular-url]: https://angular.io/
 
 ## Development server
