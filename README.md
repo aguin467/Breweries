@@ -1,6 +1,4 @@
 # AngularApp
-
-
 ![Node.js CI](https://github.com/aguin467/Breweries/workflows/Node.js%20CI/badge.svg?branch=master) ![License Icon](https://img.shields.io/github/license/aguin467/angularApp) ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
 
 ![Angular Icon](angular.svg)

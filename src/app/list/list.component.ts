@@ -8,9 +8,10 @@ import { HttpService } from '../http.service';
 })
 export class ListComponent implements OnInit {
 
-  brews: Object;
-  secbrews: Object;
+  brews: object;
+  secbrews: object;
 
+  // tslint:disable-next-line: variable-name
   constructor(private _http: HttpService) { }
 
   async ngOnInit() {
