@@ -1,0 +1,17 @@
+<h1>Breweries🍻</h1>
+
+<ul *ngIf="brews">
+  <li *ngFor="let brew of brews">
+    <p class="name">🍺{{ brew.name }}</p>
+    <p class="country">🌎{{ brew.country }}</p>
+    <a href="{{ brew.website_url }}" class="site">site</a>
+  </li>
+</ul>
+
+<ul *ngIf="secbrews">
+  <li *ngFor="let secbrew of secbrews">
+    <p class="name">🍺{{ secbrew.name }}</p>
+    <p class="country">🌎{{ secbrew.country }}</p>
+    <a href="{{ secbrew.website_url }}" class="site">site</a>
+  </li>
+</ul>

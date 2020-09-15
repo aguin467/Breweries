@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+
+$primary: rgb(0, 0, 0);
+$secondary: rgb(225, 147, 0);
+
+h1,
+ul,
+li,
+p,
+p.name,
+p.country {
+  font-family: "Fira Code", monospace;
+  text-align: center;
+  $primary: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Fira Code", monospace;
+  font-size: 18px;
+  text-align: left;
+}
+
+html {
+  background-color: rgb(102, 102, 102);
+  background-image: url("../background.jpg");
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: $primary;
+  padding: 1em 0;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a.logo {
+    font-weight: bold;
+  }
+
+  nav {
+    float: right;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+
+      li a {
+        padding: 1em;
+
+        &:hover {
+          background: $secondary;
+        }
+      }
+    }
+  }
+}
+
+h1 {
+  margin-top: 2em;
+}
